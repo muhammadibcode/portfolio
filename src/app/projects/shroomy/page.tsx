@@ -31,6 +31,15 @@ export default function ShroomyProject() {
           <h1 className="case-title">Shroomy</h1>
         </header>
 
+        <div className="case-image">
+          <img
+            src="/images/shroomy-hero.png"
+            alt="Shroomy My Plan and Chat tabs"
+            onClick={() => setLightboxSrc('/images/shroomy-hero.png')}
+          />
+          <p className="case-image-caption">Two modes: weekly plan for proactive improvement, chat for reactive support</p>
+        </div>
+
         <section className="case-section">
           <p>
             <strong>Problem:</strong> Anxiety improves with consistent practice, but therapy only happens weekly and most mental health apps offer only generic, ad-hoc support.
@@ -46,11 +55,11 @@ export default function ShroomyProject() {
 
         <div className="case-image">
           <img
-            src="/images/shroomy-hero.png"
-            alt="Shroomy My Plan and Chat tabs"
-            onClick={() => setLightboxSrc('/images/shroomy-hero.png')}
+            src="/images/shroomy-exercises.png"
+            alt="Shroomy exercise screens"
+            onClick={() => setLightboxSrc('/images/shroomy-exercises.png')}
           />
-          <p className="case-image-caption">Two modes: weekly plan for proactive improvement, chat for reactive support</p>
+          <p className="case-image-caption">Bite-sized AI generated exercises: breathwork and gratitude journaling</p>
         </div>
 
         <section className="case-section">
@@ -64,11 +73,11 @@ export default function ShroomyProject() {
 
         <div className="case-image">
           <img
-            src="/images/shroomy-exercises.png"
-            alt="Shroomy exercise screens"
-            onClick={() => setLightboxSrc('/images/shroomy-exercises.png')}
+            src="/images/shroomy-chat.png"
+            alt="Shroomy chat interface"
+            onClick={() => setLightboxSrc('/images/shroomy-chat.png')}
           />
-          <p className="case-image-caption">Bite-sized AI generated exercises: breathwork and gratitude journaling</p>
+          <p className="case-image-caption">Chat provides reactive support and connects to proactive exercises</p>
         </div>
 
         <section className="case-section">
@@ -81,11 +90,11 @@ export default function ShroomyProject() {
 
         <div className="case-image">
           <img
-            src="/images/shroomy-chat.png"
-            alt="Shroomy chat interface"
-            onClick={() => setLightboxSrc('/images/shroomy-chat.png')}
+            src="/images/shroomy-rewards.png"
+            alt="Shroomy completion and insights screens"
+            onClick={() => setLightboxSrc('/images/shroomy-rewards.png')}
           />
-          <p className="case-image-caption">Chat provides reactive support and connects to proactive exercises</p>
+          <p className="case-image-caption">Completion celebrations and unlockable insights</p>
         </div>
 
         <section className="case-section">
@@ -95,15 +104,6 @@ export default function ShroomyProject() {
             <li>Completing exercises reveals further insights about the user at random, creating moments of delight that reinforce habit formation.</li>
           </ul>
         </section>
-
-        <div className="case-image">
-          <img
-            src="/images/shroomy-rewards.png"
-            alt="Shroomy completion and insights screens"
-            onClick={() => setLightboxSrc('/images/shroomy-rewards.png')}
-          />
-          <p className="case-image-caption">Completion celebrations and unlockable insights</p>
-        </div>
 
         <section className="case-section">
           <h2>Outcome</h2>
