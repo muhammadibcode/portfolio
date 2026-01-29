@@ -328,6 +328,20 @@ img {
   padding: var(--spacing-md);
 }
 
+/* Case Study Lists */
+.case-section ul {
+  color: var(--color-text-secondary);
+  padding-left: 0;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.case-section li {
+  line-height: 1.5;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .experience-item {
