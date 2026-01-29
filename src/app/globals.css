@@ -182,7 +182,7 @@ img {
 }
 
 .case-header {
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
 }
 
 .case-icon {

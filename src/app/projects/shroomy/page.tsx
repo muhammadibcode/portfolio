@@ -14,16 +14,15 @@ export default function ShroomyProject() {
         </header>
 
         <section className="case-section">
-          <h2>Overview</h2>
           <p>
   <strong>Problem:</strong> Anxiety improves with consistent practice, but therapy only happens weekly and most mental health apps offer only generic, ad-hoc support.
 </p>
 <p>
-  <strong>Solution:</strong> Shroomy designs you a personalised plan of AI-generated exercises to help you build therapeutic habits, for real improvement over time. Try it{' '}
-  <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
+  <strong>Solution:</strong> Shroomy designs you a personalised plan of AI-generated exercises to help you build therapeutic habits, for real improvement over time.
 </p>
           <p>
-            All screenshots on this page are taken directly from the live app.
+            All screenshots on this page are taken directly from the live app. Try it out{' '}
+            <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
           </p>
         </section>
 
