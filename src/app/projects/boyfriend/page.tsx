@@ -14,10 +14,12 @@ export default function BoyfriendProject() {
         </header>
 
         <section className="case-section">
-          <ul>
-            <li><strong>Problem:</strong> Gay dating apps are optimised for casual encounters—grid interfaces and swipe mechanics work against users seeking commitment</li>
-            <li><strong>Solution:</strong> A premium dating service for gay men seeking long-term relationships, with curated weekly matching instead of infinite swiping</li>
-          </ul>
+          <p>
+            <strong>Problem:</strong> Gay dating apps are optimised for casual encounters—grid interfaces and swipe mechanics work against users seeking commitment.
+          </p>
+          <p>
+            <strong>Solution:</strong> A premium dating service for gay men seeking long-term relationships, with curated weekly matching instead of infinite swiping.
+          </p>
         </section>
 
         <div className="case-image poster-grid">

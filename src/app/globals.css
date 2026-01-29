@@ -227,7 +227,7 @@ img {
 
 /* Case Study Content */
 .case-section {
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .case-section h2 {
@@ -249,7 +249,7 @@ img {
   background-color: var(--color-card-bg);
   border-radius: 12px;
   padding: var(--spacing-lg);
-  margin: var(--spacing-lg) 0;
+  margin-bottom: var(--spacing-lg);
 }
 
 .case-image img {
