@@ -56,9 +56,9 @@ export default function ShroomyProject() {
         <section className="case-section">
           <h2>AI-Generated Exercises</h2>
           <ul>
-            <li>Exercises are intentionally simple and bite-sized: designed for people who feel time-constrained and are easily overwhelmed</li>
-            <li>Each exercise is AI-generated and unique to the user's situation</li>
-            <li>The AI learns based on what users share, and further personalises their self-care suggestions accordingly</li>
+            <li>Exercises are intentionally simple and bite-sized: designed for people who feel time-constrained and are easily overwhelmed.</li>
+            <li>Each exercise is AI-generated and unique to the user's situation.</li>
+            <li>The AI learns based on what users share, and further personalises their self-care suggestions accordingly.</li>
           </ul>
         </section>
 
@@ -74,8 +74,8 @@ export default function ShroomyProject() {
         <section className="case-section">
           <h2>Reactive Support</h2>
           <ul>
-            <li>Chat interface provides conversational support for moments when users are struggling</li>
-            <li>Shroomy acknowledges emotions, asks clarifying questions, and suggests relevant exercises based on what users share</li>
+            <li>The chat interface provides reactive support for moments when users are struggling.</li>
+            <li>Shroomy acknowledges emotions, asks clarifying questions, and suggests relevant exercises based on what users share.</li>
           </ul>
         </section>
 
@@ -91,8 +91,8 @@ export default function ShroomyProject() {
         <section className="case-section">
           <h2>Celebrating Progress</h2>
           <ul>
-            <li>Drawing from Nir Eyal's framework for building habit-forming apps, the app celebrates wins with completion screens</li>
-            <li>Reveals insights about the user at random, creating moments of delight that reinforce habit formation</li>
+            <li>Drawing from Nir Eyal's framework for building habit-forming apps, the app celebrates wins with completion screens.</li>
+            <li>Completing exercises reveals further insights about the user at random, creating moments of delight that reinforce habit formation.</li>
           </ul>
         </section>
 

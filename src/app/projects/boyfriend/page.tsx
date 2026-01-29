@@ -15,10 +15,10 @@ export default function BoyfriendProject() {
 
         <section className="case-section">
           <p>
-            <strong>Problem:</strong> Gay dating apps are optimised for casual encounters—grid interfaces and swipe mechanics work against users seeking commitment.
+            <strong>Problem:</strong> Gay men are underserved when it comes to finding long-term relationships given the rampancy of hook-up culture.
           </p>
           <p>
-            <strong>Solution:</strong> A premium dating service for gay men seeking long-term relationships, with curated weekly matching instead of infinite swiping.
+            <strong>Solution:</strong> A dating service designed for gay men seeking a serious relationship, counterpositioned to hook-up apps like Grindr.
           </p>
         </section>
 
@@ -33,9 +33,9 @@ export default function BoyfriendProject() {
         <section className="case-section">
           <h2>Go-to-Market</h2>
           <ul>
-            <li>Building initial waitlist through provocative posters in gay bars—saying what everyone's thinking but no one's saying out loud</li>
-            <li>Deliberately divisive positioning filters out misaligned users while resonating strongly with the target audience</li>
-            <li>Henry Scott Tuke paintings set a romantic rather than sexual tone</li>
+            <li>I'm building an initial waitlist through provocative posters in gay bars.</li>
+            <li>Deliberately divisive positioning is designed to get attention and filter out misaligned users while resonating strongly with the target audience.</li>
+            <li>The use of paintings by Henry Scott Tuke is intended to set deliberately romantic and sophisticated tone.</li>
           </ul>
         </section>
 
