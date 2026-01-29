@@ -11,15 +11,16 @@ export default function ShroomyProject() {
         <header className="case-header">
           <div className="case-icon">🍄</div>
           <h1 className="case-title">Shroomy</h1>
-        
         </header>
 
         <section className="case-section">
           <h2>Overview</h2>
           <p>
-          Anxiety, like most things, requires daily consistent practice to improve. However therapy tends to be scheduled once a week, and most mental health apps offer generic support. 
-          Shroomy delivers short, AI-personalized therapeutic exercises daily, which adapt to what users share about their specific anxieties, thought patterns, and life context,  to help them build therapeutic habits that stick in order to produce real improvement.
-          You can try it out <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
+  <strong>Problem:</strong> Anxiety improves with consistent practice, but therapy only happens weekly and most mental health apps offer only generic, ad-hoc support.
+</p>
+<p>
+  <strong>Solution:</strong> Shroomy designs you a personalised plan of AI-generated exercises to help you build therapeutic habits, for real improvement over time. Try it{' '}
+  <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
 </p>
           <p>
             All screenshots on this page are taken directly from the live app.
