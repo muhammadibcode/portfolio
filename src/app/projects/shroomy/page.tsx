@@ -11,64 +11,18 @@ export default function ShroomyProject() {
         <header className="case-header">
           <div className="case-icon">🍄</div>
           <h1 className="case-title">Shroomy</h1>
-          <p className="case-subtitle">AI-native anxiety companion</p>
-          
-          <div className="case-meta">
-            <div className="case-meta-item">
-              <span className="case-meta-label">Role</span>
-              <span className="case-meta-value">Solo founder</span>
-            </div>
-            <div className="case-meta-item">
-              <span className="case-meta-label">Platform</span>
-              <span className="case-meta-value">iOS & Android</span>
-            </div>
-            <div className="case-meta-item">
-              <span className="case-meta-label">Stack</span>
-              <span className="case-meta-value">Flutter, Claude API, ElevenLabs</span>
-            </div>
-          </div>
+        
         </header>
 
         <section className="case-section">
           <h2>Overview</h2>
           <p>
-  Shroomy is an app I've designed, developed, and marketed solo. It's built for 
-  people with severe stress and anxiety who want to invest in daily habits for long-term 
-  improvement. The app is AI-native: it generates personalised plans and exercises that 
-  are entirely unique to each user. You can try it out <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
+          Anxiety, like most things, requires daily consistent practice to improve. However therapy tends to be scheduled once a week, and most mental health apps offer generic support. 
+          Shroomy delivers short, AI-personalized therapeutic exercises daily, which adapt to what users share about their specific anxieties, thought patterns, and life context,  to help them build therapeutic habits that stick in order to produce real improvement.
+          You can try it out <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
 </p>
           <p>
             All screenshots on this page are taken directly from the live app.
-          </p>
-        </section>
-
-        <div className="metrics-grid">
-          <div className="metric">
-            <div className="metric-value">$5k</div>
-            <div className="metric-label">Monthly Recurring Revenue</div>
-          </div>
-          <div className="metric">
-            <div className="metric-value">35%</div>
-            <div className="metric-label">D1 Retention (vs 28% median)</div>
-          </div>
-          <div className="metric">
-            <div className="metric-value">4.8/5</div>
-            <div className="metric-label">App Store Rating</div>
-          </div>
-        </div>
-
-        <section className="case-section">
-          <h2>The Problem</h2>
-          <p>
-          People struggling with anxiety and stress lack accessible, personalised support that actually fits their daily life.
-          Therapy tends to be once a week and most mental health apps offer generic support in the meantime. 
-          </p>
-        </section>
-
-        <section className="case-section">
-          <h2>Solution Hypothesis</h2>
-          <p>
-            If we can deliver short, AI-personalized therapeutic exercises daily, which adapt to what users share about their specific anxieties, thought patterns, and life context, then we can build therapeutic habits that stick and produce real improvement.
           </p>
         </section>
 
