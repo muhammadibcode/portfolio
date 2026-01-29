@@ -1,6 +1,24 @@
+'use client'
+
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 
 export default function ShroomyProject() {
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
+
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setLightboxSrc(null)
+      }
+    }
+
+    if (lightboxSrc) {
+      document.addEventListener('keydown', handleEscape)
+      return () => document.removeEventListener('keydown', handleEscape)
+    }
+  }, [lightboxSrc])
+
   return (
     <main className="page">
       <div className="container">
@@ -27,58 +45,72 @@ export default function ShroomyProject() {
         </section>
 
         <div className="case-image">
-          <img src="/images/shroomy-hero.png" alt="Shroomy My Plan and Chat tabs" />
+          <img
+            src="/images/shroomy-hero.png"
+            alt="Shroomy My Plan and Chat tabs"
+            onClick={() => setLightboxSrc('/images/shroomy-hero.png')}
+          />
           <p className="case-image-caption">Two modes: weekly plan for proactive improvement, chat for reactive support</p>
         </div>
 
         <section className="case-section">
           <h2>AI-Generated Exercises</h2>
           <p>
-            The exercises are intentionally simple and bite-sized: designed for people who feel 
-            time-constrained and are easily overwhelmed. Each exercise is AI-generated and unique to the user's situation, 
-            whether that's guided love & kindness meditation or exploratory journaling to reveal subconscious beliefs. The AI 
+            The exercises are intentionally simple and bite-sized: designed for people who feel
+            time-constrained and are easily overwhelmed. Each exercise is AI-generated and unique to the user's situation. The AI
             learns based on what users share, and further personalises their self-care suggestions accordingly.
           </p>
         </section>
 
         <div className="case-image">
-          <img src="/images/shroomy-exercises.png" alt="Shroomy exercise screens" />
+          <img
+            src="/images/shroomy-exercises.png"
+            alt="Shroomy exercise screens"
+            onClick={() => setLightboxSrc('/images/shroomy-exercises.png')}
+          />
           <p className="case-image-caption">Bite-sized AI generated exercises: breathwork and gratitude journaling</p>
         </div>
 
         <section className="case-section">
           <h2>Reactive Support</h2>
           <p>
-            The chat interface provides conversational support for moments when users are struggling. 
-            Shroomy acknowledges emotions, asks clarifying questions, and suggests relevant exercises 
+            The chat interface provides conversational support for moments when users are struggling.
+            Shroomy acknowledges emotions, asks clarifying questions, and suggests relevant exercises
             based on what users share.
           </p>
         </section>
 
         <div className="case-image">
-          <img src="/images/shroomy-chat.png" alt="Shroomy chat interface" />
+          <img
+            src="/images/shroomy-chat.png"
+            alt="Shroomy chat interface"
+            onClick={() => setLightboxSrc('/images/shroomy-chat.png')}
+          />
           <p className="case-image-caption">Chat provides reactive support and connects to proactive exercises</p>
         </div>
 
         <section className="case-section">
           <h2>Celebrating Progress</h2>
           <p>
-            Drawing from Nir Eyal's framework for building habit-forming apps, the app celebrates wins with 
-            completion screens and reveals insights about the user at random. This creates moments 
-            of delight that reinforce habit formation - users don't just complete exercises, they 
-            discover new things about themselves in the process.
+            Drawing from Nir Eyal's framework for building habit-forming apps, the app celebrates wins with
+            completion screens and reveals insights about the user at random. This creates moments
+            of delight that reinforce habit formation.
           </p>
         </section>
 
         <div className="case-image">
-          <img src="/images/shroomy-rewards.png" alt="Shroomy completion and insights screens" />
+          <img
+            src="/images/shroomy-rewards.png"
+            alt="Shroomy completion and insights screens"
+            onClick={() => setLightboxSrc('/images/shroomy-rewards.png')}
+          />
           <p className="case-image-caption">Completion celebrations and unlockable insights</p>
         </div>
 
         <section className="case-section">
           <h2>Outcome</h2>
           <p>
-            Built and scaled solo to $5k MRR with 35% D1 retention (beating the 28% Health & Fitness 
+            Built and scaled solo to $5k MRR with 35% D1 retention (beating the 28% Health & Fitness
             median) and a 4.8/5 App Store rating.
           </p>
         </section>
@@ -88,6 +120,47 @@ export default function ShroomyProject() {
           <Link href="/projects/bumble">Next: Bumble →</Link>
         </footer>
       </div>
+
+      {lightboxSrc && (
+        <div
+          className="lightbox-overlay"
+          onClick={() => setLightboxSrc(null)}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            zIndex: 1000,
+            backgroundColor: 'rgba(0, 0, 0, 0.85)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            opacity: 1,
+            animation: 'fadeIn 200ms ease-out',
+          }}
+        >
+          <img
+            src={lightboxSrc}
+            alt="Enlarged view"
+            style={{
+              maxWidth: '90vw',
+              maxHeight: '90vh',
+              objectFit: 'contain',
+              borderRadius: '8px',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
+
+      <style jsx>{`
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      `}</style>
     </main>
   )
 }

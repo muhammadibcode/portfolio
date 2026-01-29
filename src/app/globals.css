@@ -255,6 +255,7 @@ img {
 .case-image img {
   width: 100%;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .case-image-caption {

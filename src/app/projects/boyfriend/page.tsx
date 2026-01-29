@@ -15,17 +15,10 @@ export default function BoyfriendProject() {
 
         <section className="case-section">
           <p>
-            <strong>Problem:</strong> Gay dating apps are optimised for casual encounters—Grindr's grid interface and swipe mechanics create low-consideration environments that work against users seeking commitment.
+            <strong>Problem:</strong> Gay dating apps are optimised for casual encounters—grid interfaces and swipe mechanics work against users seeking commitment.
           </p>
           <p>
-            <strong>Solution:</strong> A premium dating service for gay men seeking long-term monogamous relationships, with curated weekly matching instead of infinite swiping.
-          </p>
-        </section>
-
-        <section className="case-section">
-          <h2>Go-to-Market</h2>
-          <p>
-            Building an initial email list through guerrilla marketing—provocative posters in gay bars across London. The approach creates word-of-mouth and filters for our target audience by saying what everyone's thinking but no one's saying out loud.
+            <strong>Solution:</strong> A premium dating service for gay men seeking long-term relationships, with curated weekly matching instead of infinite swiping.
           </p>
         </section>
 
@@ -34,20 +27,22 @@ export default function BoyfriendProject() {
             <img src="/images/boyfriend-poster-1.jpg" alt="Make Monogamy Great Again poster" />
             <img src="/images/boyfriend-poster-2.jpg" alt="You're not gonna find your husband on Grindr poster" />
           </div>
-          <p className="case-image-caption">Guerrilla marketing: provocative posters for gay bars in London</p>
+          <p className="case-image-caption">Guerrilla marketing posters for gay bars in London</p>
         </div>
 
         <section className="case-section">
-          <h2>Brand Strategy</h2>
-          <p>
-            Deliberately divisive positioning against hook-up culture. "Make Monogamy Great Again" filters out users who aren't aligned while resonating strongly with those who are. Paintings by Henry Scott Tuke set the tone to be romantic rather than sexual.
-          </p>
+          <h2>Go-to-Market</h2>
+          <ul>
+            <li>Building initial waitlist through provocative posters in gay bars—saying what everyone's thinking but no one's saying out loud</li>
+            <li>Deliberately divisive positioning filters out misaligned users while resonating strongly with the target audience</li>
+            <li>Henry Scott Tuke paintings set a romantic rather than sexual tone</li>
+          </ul>
         </section>
 
         <section className="case-section">
           <h2>Status</h2>
           <p>
-            Pre-launch, currently building the email waitlist through poster distribution in London. The positioning has resonated in early testing.
+            Pre-launch, currently building the email waitlist through poster distribution in London.
           </p>
         </section>
 
