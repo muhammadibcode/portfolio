@@ -32,16 +32,13 @@ export default function ShroomyProject() {
         </header>
 
         <section className="case-section">
-          <p>
-  <strong>Problem:</strong> Anxiety improves with consistent practice, but therapy only happens weekly and most mental health apps offer only generic, ad-hoc support.
-</p>
-<p>
-  <strong>Solution:</strong> Shroomy designs you a personalised plan of AI-generated exercises to help you build therapeutic habits, for real improvement over time.
-</p>
-          <p>
-            All screenshots on this page are taken directly from the live app. Try it out{' '}
-            <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
-          </p>
+          <ul>
+            <li><strong>Problem:</strong> Anxiety improves with consistent practice, but therapy only happens weekly and most mental health apps offer only generic, ad-hoc support.</li>
+            <li><strong>Solution:</strong> Shroomy designs you a personalised plan of AI-generated exercises to help you build therapeutic habits, for real improvement over time.</li>
+            <li>All screenshots on this page are taken directly from the live app. Try it out{' '}
+              <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
+            </li>
+          </ul>
         </section>
 
         <div className="case-image">
@@ -55,11 +52,11 @@ export default function ShroomyProject() {
 
         <section className="case-section">
           <h2>AI-Generated Exercises</h2>
-          <p>
-            The exercises are intentionally simple and bite-sized: designed for people who feel
-            time-constrained and are easily overwhelmed. Each exercise is AI-generated and unique to the user's situation. The AI
-            learns based on what users share, and further personalises their self-care suggestions accordingly.
-          </p>
+          <ul>
+            <li>Exercises are intentionally simple and bite-sized: designed for people who feel time-constrained and are easily overwhelmed</li>
+            <li>Each exercise is AI-generated and unique to the user's situation</li>
+            <li>The AI learns based on what users share, and further personalises their self-care suggestions accordingly</li>
+          </ul>
         </section>
 
         <div className="case-image">
@@ -73,11 +70,10 @@ export default function ShroomyProject() {
 
         <section className="case-section">
           <h2>Reactive Support</h2>
-          <p>
-            The chat interface provides conversational support for moments when users are struggling.
-            Shroomy acknowledges emotions, asks clarifying questions, and suggests relevant exercises
-            based on what users share.
-          </p>
+          <ul>
+            <li>Chat interface provides conversational support for moments when users are struggling</li>
+            <li>Shroomy acknowledges emotions, asks clarifying questions, and suggests relevant exercises based on what users share</li>
+          </ul>
         </section>
 
         <div className="case-image">
@@ -91,11 +87,10 @@ export default function ShroomyProject() {
 
         <section className="case-section">
           <h2>Celebrating Progress</h2>
-          <p>
-            Drawing from Nir Eyal's framework for building habit-forming apps, the app celebrates wins with
-            completion screens and reveals insights about the user at random. This creates moments
-            of delight that reinforce habit formation.
-          </p>
+          <ul>
+            <li>Drawing from Nir Eyal's framework for building habit-forming apps, the app celebrates wins with completion screens</li>
+            <li>Reveals insights about the user at random, creating moments of delight that reinforce habit formation</li>
+          </ul>
         </section>
 
         <div className="case-image">
@@ -109,10 +104,11 @@ export default function ShroomyProject() {
 
         <section className="case-section">
           <h2>Outcome</h2>
-          <p>
-            Built and scaled solo to $5k MRR with 35% D1 retention (beating the 28% Health & Fitness
-            median) and a 4.8/5 App Store rating.
-          </p>
+          <ul>
+            <li>Built and scaled solo to $5k MRR</li>
+            <li>35% D1 retention (beating the 28% Health & Fitness median)</li>
+            <li>4.8/5 App Store rating</li>
+          </ul>
         </section>
 
         <footer className="footer">

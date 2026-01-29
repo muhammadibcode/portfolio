@@ -21,15 +21,10 @@ export default function BumbleProject() {
         <section className="case-section">
           <h2>Swiping Experience Redesign</h2>
           <ul>
-            <li>Data analysis revealed that 
-            women's voting behaviour was extremely bifurcated: the majority of "no" votes happened above 
-            the fold in under 1 second, based almost entirely on the first photo.</li>
-            <li>This created a distribution problem: users who struggled to compete on appearance alone 
-            received almost all of their votes above the fold, never getting the chance to showcase 
-            other compatibility signals that might change a voter's mind.</li>
-            <li>The goal here was to turn quick "no" votes into considered "yes" votes but without 
-            slowing down the overall voting experience on which monetisation depended. To solve within this constraint, I introduced UX patterns that flexibly 
-            injected non-appearance-based points of relevance above the fold on targeted segments.</li>
+            <li>Data analysis revealed that women's voting behaviour was extremely bifurcated: the majority of "no" votes happened above the fold in under 1 second, based almost entirely on the first photo</li>
+            <li>This created a distribution problem: users who struggled to compete on appearance alone received almost all of their votes above the fold, never getting the chance to showcase other compatibility signals</li>
+            <li>The goal was to turn quick "no" votes into considered "yes" votes without slowing down the overall voting experience on which monetisation depended</li>
+            <li>I introduced UX patterns that flexibly injected non-appearance-based points of relevance above the fold on targeted segments</li>
           </ul>
         </section>
 
@@ -41,18 +36,18 @@ export default function BumbleProject() {
         <section className="case-section">
           <h2>Interest Badges</h2>
           <ul>
-            <li>To support this work on distribution, I also introduced a new profile content system to better surface compatibility signals..</li>
-            <li>This feature was designed to help men who typically struggle to express themselves to build 
-            better profiles, while giving women more information on how a man might actually fit into their lives.</li>
-            <li>Interest Badges became the fastest-adopted in-app content type ever.</li>
+            <li>Introduced a new profile content system to better surface compatibility signals</li>
+            <li>Designed to help men who typically struggle to express themselves build better profiles, while giving women more information on how a man might fit into their lives</li>
+            <li>Interest Badges became the fastest-adopted in-app content type ever</li>
           </ul>
         </section>
 
         <section className="case-section">
           <h2>Outcome</h2>
-          <p>
-            Improved marketplace health by giving everyone a fair shot while maintaining the fast swiping experience users love. Contributed to +20% MAU and +22.8% revenue YoY.
-          </p>
+          <ul>
+            <li>Improved marketplace health by giving everyone a fair shot while maintaining the fast swiping experience</li>
+            <li>Contributed to +20% MAU and +22.8% revenue YoY</li>
+          </ul>
         </section>
 
         <footer className="footer">
