@@ -13,7 +13,7 @@ export default function Home() {
         
         <p className="intro">
   I previously led the core experience product team at <strong>Bumble</strong>. I'm currently building{' '}
-  <strong>Shroomy</strong> as a solo founder; an app to support people with severe stress and anxiety through AI-generated mental health exercises. Always open to <a href="mailto:muhammad.i.b@outlook.com">chatting</a>.
+  <strong>Shroomy</strong> as a solo founder; an app to support people with severe stress and anxiety through AI-generated mental health exercises.
 </p>
         {/* Experience */}
         <h2 className="section-title">Experience</h2>
