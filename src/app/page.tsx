@@ -21,7 +21,7 @@ export default function Home() {
           <div className="experience-item">
             <div>
               <a href="https://shroomyapp.com" target="_blank" rel="noopener noreferrer">Shroomy</a>
-              <span className="experience-role"> — Founder</span>
+              <span className="experience-role"> — Solo Founder</span>
             </div>
             <div className="experience-dates">2024 – Present</div>
           </div>
