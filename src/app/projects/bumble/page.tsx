@@ -57,10 +57,10 @@ export default function BumbleProject() {
         <section className="case-section">
           <h2>Interest Badges</h2>
           <p>
-            <strong>Problem:</strong> An additional issue revealed in research was that a majority of men struggled with knowing what to add to their profile, and women struggled to understand who men were from their profiles. We needed to ensure profiles held potential signals of compatibility which we could reveal, for the above UX injections to work.
+            <strong>Problem:</strong> An additional issue revealed in research was that a majority of men struggled with knowing what to add to their profile (faced with the "blank page" problem), and women struggled to understand who men were from the sparse nature of their profiles. This was in particular an issue as we needed to ensure profiles held potential signals of compatibility which we could reveal, for the UX injections proposed above to work.
           </p>
           <p>
-            <strong>Solution:</strong> Based on this, I introduced a new content type: "Interest badges". The goal was to make it easier for men to add content to their profiles, while providing women with signal of a man's interests and lifestyle. Interest Badges became the fastest-adopted profile content type in Bumble's history.
+            <strong>Solution:</strong> Based on this, I introduced a new content type: "Interest badges". The goal was to make it easier for men to add content to their profiles, while providing women with signal of a man's overall character and lifestyle without increasing their time per swipe. Interest Badges were a success and became the fastest-adopted profile content type in Bumble's history.
           </p>
         </section>
 
