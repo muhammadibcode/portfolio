@@ -20,7 +20,7 @@ export default function BumbleProject() {
         </header>
 
         <section className="case-section">
-          <p>At Bumble I led the Core Experience team. Below is a sample of 2 of the many projects delivered as part of my work there:</p>
+          <p>At Bumble I was the lead for the Core Dating Experience team. Below is a sample of 2 of the projects delivered as part of my work there:</p>
         </section>
 
         <div className="case-image">
