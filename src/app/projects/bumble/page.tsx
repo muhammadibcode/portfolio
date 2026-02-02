@@ -19,6 +19,10 @@ export default function BumbleProject() {
           <h1 className="case-title">Bumble</h1>
         </header>
 
+        <section className="case-section">
+          <p>At Bumble I led the Core Experience team. Below is a sample of 2 of the many projects delivered as part of my work there:</p>
+        </section>
+
         <div className="case-image">
           <img
             src="/images/bumble-hero.png"
