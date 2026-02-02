@@ -33,11 +33,11 @@ export default function ShroomyProject() {
 
         <div className="case-image">
           <img
-            src="/images/shroomy-hero.png"
-            alt="Shroomy My Plan and Chat tabs"
-            onClick={() => setLightboxSrc('/images/shroomy-hero.png')}
+            src="/images/shroomy-website.png"
+            alt="Shroomy Website Landing Page"
+            onClick={() => setLightboxSrc('/images/shroomy-website.png')}
           />
-          <p className="case-image-caption">Two modes: weekly plan for proactive improvement, chat for reactive support</p>
+          <p className="case-image-caption">Shroomy Website Landing Page</p>
         </div>
 
         <section className="case-section">
@@ -52,6 +52,15 @@ export default function ShroomyProject() {
             <a href="https://apps.apple.com/us/app/shroomy-daily-stress-relief/id6737152971" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>here</a>.
           </p>
         </section>
+
+        <div className="case-image">
+          <img
+            src="/images/shroomy-hero.png"
+            alt="Shroomy My Plan and Chat tabs"
+            onClick={() => setLightboxSrc('/images/shroomy-hero.png')}
+          />
+          <p className="case-image-caption">Two modes: weekly plan for proactive improvement, chat for reactive support</p>
+        </div>
 
         <div className="case-image">
           <img
