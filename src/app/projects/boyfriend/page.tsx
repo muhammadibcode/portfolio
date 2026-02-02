@@ -41,7 +41,7 @@ export default function BoyfriendProject() {
 
         <div className="case-image">
           <img src="/images/boyfriend-conversion-flow.png" alt="Boyfriend Conversion Funnel" />
-          <p className="case-image-caption">Boyfriend Conversion Funnel</p>
+          <p className="case-image-caption">User journey after scanning a QR code</p>
         </div>
 
         <section className="case-section">
