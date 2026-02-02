@@ -1,23 +1,11 @@
 'use client'
 
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import Lightbox from '@/components/Lightbox'
 
 export default function ShroomyProject() {
   const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
-
-  useEffect(() => {
-    const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        setLightboxSrc(null)
-      }
-    }
-
-    if (lightboxSrc) {
-      document.addEventListener('keydown', handleEscape)
-      return () => document.removeEventListener('keydown', handleEscape)
-    }
-  }, [lightboxSrc])
 
   return (
     <main className="page">
@@ -129,46 +117,7 @@ export default function ShroomyProject() {
         </footer>
       </div>
 
-      {lightboxSrc && (
-        <div
-          className="lightbox-overlay"
-          onClick={() => setLightboxSrc(null)}
-          style={{
-            position: 'fixed',
-            inset: 0,
-            zIndex: 1000,
-            backgroundColor: 'rgba(0, 0, 0, 0.85)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            opacity: 1,
-            animation: 'fadeIn 200ms ease-out',
-          }}
-        >
-          <img
-            src={lightboxSrc}
-            alt="Enlarged view"
-            style={{
-              maxWidth: '90vw',
-              maxHeight: '90vh',
-              objectFit: 'contain',
-              borderRadius: '8px',
-            }}
-            onClick={(e) => e.stopPropagation()}
-          />
-        </div>
-      )}
-
-      <style jsx>{`
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
-      `}</style>
+      <Lightbox src={lightboxSrc} onClose={() => setLightboxSrc(null)} />
     </main>
   )
 }

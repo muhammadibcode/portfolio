@@ -1,6 +1,12 @@
+'use client'
+
 import Link from 'next/link'
+import { useState } from 'react'
+import Lightbox from '@/components/Lightbox'
 
 export default function BoyfriendProject() {
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
+
   return (
     <main className="page">
       <div className="container">
@@ -24,8 +30,16 @@ export default function BoyfriendProject() {
 
         <div className="case-image poster-grid">
           <div className="poster-row">
-            <img src="/images/boyfriend-poster-1.jpg" alt="Make Monogamy Great Again poster" />
-            <img src="/images/boyfriend-poster-2.jpg" alt="You're not gonna find your husband on Grindr poster" />
+            <img
+              src="/images/boyfriend-poster-1.jpg"
+              alt="Make Monogamy Great Again poster"
+              onClick={() => setLightboxSrc('/images/boyfriend-poster-1.jpg')}
+            />
+            <img
+              src="/images/boyfriend-poster-2.jpg"
+              alt="You're not gonna find your husband on Grindr poster"
+              onClick={() => setLightboxSrc('/images/boyfriend-poster-2.jpg')}
+            />
           </div>
           <p className="case-image-caption">Guerrilla marketing posters for gay bars in London</p>
         </div>
@@ -40,7 +54,11 @@ export default function BoyfriendProject() {
         </section>
 
         <div className="case-image">
-          <img src="/images/boyfriend-conversion-flow.png" alt="Boyfriend Conversion Funnel" />
+          <img
+            src="/images/boyfriend-conversion-flow.png"
+            alt="Boyfriend Conversion Funnel"
+            onClick={() => setLightboxSrc('/images/boyfriend-conversion-flow.png')}
+          />
           <p className="case-image-caption">User journey after scanning a QR code</p>
         </div>
 
@@ -56,6 +74,8 @@ export default function BoyfriendProject() {
           <Link href="/">Back to all projects →</Link>
         </footer>
       </div>
+
+      <Lightbox src={lightboxSrc} onClose={() => setLightboxSrc(null)} />
     </main>
   )
 }

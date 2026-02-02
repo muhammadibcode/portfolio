@@ -1,6 +1,12 @@
+'use client'
+
 import Link from 'next/link'
+import { useState } from 'react'
+import Lightbox from '@/components/Lightbox'
 
 export default function BumbleProject() {
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null)
+
   return (
     <main className="page">
       <div className="container">
@@ -14,7 +20,11 @@ export default function BumbleProject() {
         </header>
 
         <div className="case-image">
-          <img src="/images/bumble-hero.png" alt="Bumble profile and matching interface" />
+          <img
+            src="/images/bumble-hero.png"
+            alt="Bumble profile and matching interface"
+            onClick={() => setLightboxSrc('/images/bumble-hero.png')}
+          />
           <p className="case-image-caption">Surfacing compatibility signals above the fold</p>
         </div>
 
@@ -29,7 +39,11 @@ export default function BumbleProject() {
         </section>
 
         <div className="case-image">
-          <img src="/images/bumble-interests.png" alt="Bumble interest badges" />
+          <img
+            src="/images/bumble-interests.png"
+            alt="Bumble interest badges"
+            onClick={() => setLightboxSrc('/images/bumble-interests.png')}
+          />
           <p className="case-image-caption">Interest selection flow and how badges appear on profiles</p>
         </div>
 
@@ -55,6 +69,8 @@ export default function BumbleProject() {
           <Link href="/projects/boyfriend">Next: Boyfriend →</Link>
         </footer>
       </div>
+
+      <Lightbox src={lightboxSrc} onClose={() => setLightboxSrc(null)} />
     </main>
   )
 }
