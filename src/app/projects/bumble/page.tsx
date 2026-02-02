@@ -30,12 +30,15 @@ export default function BumbleProject() {
 
         <section className="case-section">
           <h2>Swiping Experience Redesign</h2>
-          <ul>
-            <li>Data analysis revealed that women's voting behaviour was extremely bifurcated: the majority of "no" votes happened above the fold in under 1 second, based almost entirely on the first photo.</li>
-            <li>This created a distribution problem: users who struggled to compete on appearance alone received almost all of their votes above the fold, never getting the chance to showcase other compatibility signals.</li>
-            <li>The goal was to turn quick "no" votes into considered "yes" votes without slowing down the overall voting experience on which monetisation depended.</li>
-            <li>Based on this I introduced UX patterns that flexibly injected non-appearance-based points of relevance above the fold, on targeted segments.</li>
-          </ul>
+          <p>
+            <strong>Problem:</strong> In dating apps a major problem is unequal distribution of activity. A minority of popular users tend to get most of the likes. This results in most men struggling to get a match and churning when they don't, and women feeling the app shows them an overwhelming number of irrelevant profiles.
+          </p>
+          <p>
+            At Bumble, I led the team responsible for addressing this problem through the core swiping UX. Data analysis revealed that when women were swiping no, this happened almost exclusively based on the first photo, without scrolling to see additional content. However testing quickly revealed that slowing down time per swipe with additional content significantly impacted total swipes per user, in a product where swipe volume is intrinsically tied to monetisation.
+          </p>
+          <p>
+            <strong>Solution:</strong> The goal was accordingly to use UX nudges tactically to turn no votes into yes votes with minimal impact to time per swipe. Within this context, I led the introducing of UX patterns to flexibly inject non-appearance-based points of relevance above the fold on segments identified as high potential by the Data Science team. This approach successfully increased the % of men with a yes swipe received by 8pp.
+          </p>
         </section>
 
         <div className="case-image">
