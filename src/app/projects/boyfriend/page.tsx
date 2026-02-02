@@ -39,6 +39,11 @@ export default function BoyfriendProject() {
           </ul>
         </section>
 
+        <div className="case-image">
+          <img src="/images/boyfriend-conversion-flow.png" alt="Boyfriend Conversion Funnel" />
+          <p className="case-image-caption">Boyfriend Conversion Funnel</p>
+        </div>
+
         <section className="case-section">
           <h2>Status</h2>
           <ul>
