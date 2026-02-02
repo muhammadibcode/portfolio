@@ -37,7 +37,7 @@ export default function BumbleProject() {
             At Bumble, I led the team responsible for addressing this problem through the core swiping UX. Data analysis revealed that when women were swiping no, this happened almost exclusively based on the first photo, without scrolling to see additional content. However testing quickly revealed that slowing down time per swipe with additional content significantly impacted total swipes per user, in a product where swipe volume is intrinsically tied to monetisation.
           </p>
           <p>
-            <strong>Solution:</strong> The goal was accordingly to use UX nudges tactically to turn no votes into yes votes with minimal impact to time per swipe. Within this context, I led the introducing of UX patterns to flexibly inject non-appearance-based points of relevance above the fold on segments identified as high potential by the Data Science team. This approach successfully increased the % of men with a yes swipe received by 8pp.
+            <strong>Solution:</strong> The goal was accordingly to use UX nudges tactically to turn no votes into yes votes with minimal impact to time per swipe. Within this context, I introduced UX patterns to flexibly inject non-appearance-based points of relevance above the fold on segments identified as high potential by the Data Science team. This approach successfully increased the % of men with a yes swipe received by 8pp.
           </p>
         </section>
 
@@ -52,11 +52,12 @@ export default function BumbleProject() {
 
         <section className="case-section">
           <h2>Interest Badges</h2>
-          <ul>
-            <li>To support this work I also introduced a new profile content system to help provide compatibility signals.</li>
-            <li>This was designed to help men who typically struggle to express themselves build better profiles, while giving women more information on how a man might fit into their lives.</li>
-            <li>Interest Badges quickly became the most-adopted profile content type in Bumble's history.</li>
-          </ul>
+          <p>
+            <strong>Problem:</strong> An additional issue revealed in research was that a majority of men struggled with knowing what to add to their profile, and women struggled to understand who men were from their profiles. We needed to ensure profiles held potential signals of compatibility which we could reveal, for the above UX injections to work.
+          </p>
+          <p>
+            <strong>Solution:</strong> Based on this, I introduced a new content type: "Interest badges". The goal was to make it easier for men to add content to their profiles, while providing women with signal of a man's interests and lifestyle. Interest Badges became the fastest-adopted profile content type in Bumble's history.
+          </p>
         </section>
 
         <section className="case-section">
