@@ -20,7 +20,7 @@ export default function Home() {
         <div className="experience-list">
           <div className="experience-item">
             <div>
-              <a href="https://shroomy-website.vercel.app/" target="_blank" rel="noopener noreferrer">Shroomy</a>
+              <a href="https://shroomyapp.com/" target="_blank" rel="noopener noreferrer">Shroomy</a>
               <span className="experience-role"> — Solo Founder</span>
             </div>
             <div className="experience-dates">2024 – Present</div>
